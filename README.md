@@ -1,1 +1,2 @@
-# bird-species-classification
+[![Developed by Preetham Ganesh](https://img.shields.io/badge/Developed%20by-Preetham%20Ganesh-green)](https://preethamganesh.com)
+[![PythonVersion](https://img.shields.io/badge/python-3.9-blue)](https://img.shields.io/badge/python-3.9-blue)
