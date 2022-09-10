@@ -19,7 +19,7 @@ cd bird-species-classification
 ### Extraction
 
 ```bash
-unzip dev/data/original/train.zip -d dev/data/original/train
-unzip dev/data/original/valid.zip -d dev/data/original/validation
-unzip dev/data/original/test.zip -d dev/data/original/test
+unzip dev/data/original/train.zip -d dev/data/extracted/train
+unzip dev/data/original/valid.zip -d dev/data/extracted/validation
+unzip dev/data/original/test.zip -d dev/data/extracted/test
 ```
