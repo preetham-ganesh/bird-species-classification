@@ -9,6 +9,17 @@ git clone https://github.com/preetham-ganesh/bird-species-classification.git
 cd bird-species-classification
 ```
 
-## Download Data
+## Dataset
 
-The dataset used for developing the Neural Network model was downloaded from [[Link]](https://www.kaggle.com/datasets/gpiosenka/100-bird-species).
+### Download
+
+- The dataset used for developing the Neural Network model was downloaded from [[Link]](https://www.kaggle.com/datasets/gpiosenka/100-bird-species).
+- Downloaded dataset should be saved at 'dev/data/original'.
+
+### Extraction
+
+```bash
+unzip dev/data/original/train.zip
+unzip dev/data/original/valid.zip -d dev/data/original/validation
+unzip dev/data/original/test.zip
+```
