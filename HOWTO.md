@@ -4,7 +4,7 @@
 
 ### Clone the repo
 
-    ```bash
-    git clone https://github.com/preetham-ganesh/bird-species-classification.git
-    cd bird-species-classification
-    ```
+```bash
+git clone https://github.com/preetham-ganesh/bird-species-classification.git
+cd bird-species-classification
+```
