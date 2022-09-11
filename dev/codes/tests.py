@@ -10,7 +10,7 @@ import pytest
 from utils import check_directory_path_existence
 
 
-def test_check_directory_path_existence(self) -> None:
+def test_check_directory_path_existence() -> None:
     """Tests check_directory_path_existence function from utils.py with multiple test cases.
 
     Args:
