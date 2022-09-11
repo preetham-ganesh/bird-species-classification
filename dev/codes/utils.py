@@ -20,23 +20,25 @@ from matplotlib.pyplot import figure
 import pandas as pd
 import time
 
-from model import BirdSpeciesClassification
+#from model import BirdSpeciesClassification
 
 
 physical_devices = tf.config.list_physical_devices("GPU")
 tf.config.experimental.set_memory_growth(physical_devices[0], enable=True)
 
 
-def check_directory_path_existence(directory_path: str) -> str:
+def check_directory_path_existence(home_directory_path: str, directory_path: str) -> str:
     """Creates the absolute path for the directory path given in argument if it does not already exist.
+
     Args:
+        home_directory_path: A string which contains path for home directory.
         directory_path: A string which contains the directory path that needs to be created if it does not already
             exist.
+    
     Returns:
         A string which contains the absolute directory path.
     """
     # Creates the following directory path if it does not exist.
-    home_directory_path = os.path.dirname(os.getcwd())
     absolute_directory_path = "{}/{}".format(home_directory_path, directory_path)
     if not os.path.isdir(absolute_directory_path):
         os.makedirs(absolute_directory_path)
