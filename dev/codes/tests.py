@@ -31,3 +31,8 @@ class TestDevFunctions(unittest.TestCase):
         # Test case 2
         directory_path = check_directory_path_existence(home_directory_path, "results")
         self.assertEqual(directory_path, "{}/results".format(home_directory_path))
+
+
+if __name__ == '__main__':
+    unittest.main()
+ 
